@@ -7,13 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56250D1F1F9C28B900A64E03 /* GenresCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56250D1E1F9C28B900A64E03 /* GenresCell.swift */; };
+		56250D211F9C29B300A64E03 /* DiscoverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56250D201F9C29B300A64E03 /* DiscoverController.swift */; };
+		56250D231F9C360200A64E03 /* GenreDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56250D221F9C360200A64E03 /* GenreDetailController.swift */; };
+		5625AE5C1F9A61A5001502E0 /* EpisodeDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5625AE5B1F9A61A5001502E0 /* EpisodeDetailController.swift */; };
+		565A17DF1F82A6C00068EF2A /* TVCastCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565A17DE1F82A6C00068EF2A /* TVCastCell.swift */; };
+		565A17E11F82B9A00068EF2A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565A17E01F82B9A00068EF2A /* SearchViewController.swift */; };
+		568B97991F98EAF400EA48F0 /* SeasonDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568B97981F98EAF400EA48F0 /* SeasonDetailController.swift */; };
+		569679FB1F87C40A00E0FBB5 /* ShowDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569679FA1F87C40A00E0FBB5 /* ShowDetailController.swift */; };
+		56A223C51F9CD95D000A37CB /* LargeTVShowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A223C41F9CD95D000A37CB /* LargeTVShowCell.swift */; };
+		56A223C71F9D611F000A37CB /* PersonDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A223C61F9D611F000A37CB /* PersonDetailController.swift */; };
 		56ADF6A91F7F1AB700C78855 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56ADF6A81F7F1AB700C78855 /* AppDelegate.swift */; };
-		56ADF6AB1F7F1AB700C78855 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56ADF6AA1F7F1AB700C78855 /* ViewController.swift */; };
 		56ADF6AE1F7F1AB700C78855 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56ADF6AC1F7F1AB700C78855 /* Main.storyboard */; };
 		56ADF6B01F7F1AB700C78855 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56ADF6AF1F7F1AB700C78855 /* Assets.xcassets */; };
 		56ADF6B31F7F1AB700C78855 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56ADF6B11F7F1AB700C78855 /* LaunchScreen.storyboard */; };
 		56ADF6BE1F7F1AB700C78855 /* TellyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56ADF6BD1F7F1AB700C78855 /* TellyTests.swift */; };
 		56ADF6C91F7F1AB700C78855 /* TellyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56ADF6C81F7F1AB700C78855 /* TellyUITests.swift */; };
+		56ADF6D71F7F1C0200C78855 /* Entertainment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56ADF6D61F7F1C0200C78855 /* Entertainment.swift */; };
+		56ADF6DB1F7F1F0400C78855 /* GenericTVShowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56ADF6DA1F7F1F0400C78855 /* GenericTVShowCell.swift */; };
+		56ADF6E11F7F22C800C78855 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56ADF6DD1F7F22C800C78855 /* SwiftyJSON.swift */; };
+		56ADF6E21F7F22C800C78855 /* CosmosDistrib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56ADF6DE1F7F22C800C78855 /* CosmosDistrib.swift */; };
+		56ADF6E31F7F22C800C78855 /* UIImageEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56ADF6DF1F7F22C800C78855 /* UIImageEffects.swift */; };
+		56ADF6E41F7F22C800C78855 /* VisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56ADF6E01F7F22C800C78855 /* VisualEffectView.swift */; };
+		56E44CC11F81D6D800E811C4 /* TVEpisodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E44CC01F81D6D800E811C4 /* TVEpisodeCell.swift */; };
+		56F434FD1F7FD237002880BD /* HomeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F434FC1F7FD237002880BD /* HomeCollectionViewController.swift */; };
+		CEC063E9C639E2130B3A3227 /* Pods_Telly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E314C31A5EFF3AE4DCAF3000 /* Pods_Telly.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,10 +51,35 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		56E44CBF1F818E7C00E811C4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		25D892E1BFE5B37CEDD1A631 /* Pods-Telly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Telly.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Telly/Pods-Telly.debug.xcconfig"; sourceTree = "<group>"; };
+		56250D1E1F9C28B900A64E03 /* GenresCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenresCell.swift; sourceTree = "<group>"; };
+		56250D201F9C29B300A64E03 /* DiscoverController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverController.swift; sourceTree = "<group>"; };
+		56250D221F9C360200A64E03 /* GenreDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreDetailController.swift; sourceTree = "<group>"; };
+		5625AE5B1F9A61A5001502E0 /* EpisodeDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeDetailController.swift; sourceTree = "<group>"; };
+		56304E1F2261617400905025 /* Telly-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Telly-Bridging-Header.h"; path = "Telly/Telly-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		565A17DE1F82A6C00068EF2A /* TVCastCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCastCell.swift; sourceTree = "<group>"; };
+		565A17E01F82B9A00068EF2A /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		56662ECD226166BF007006D9 /* Telly-Bridging-Header.h.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Telly-Bridging-Header.h.h"; sourceTree = "<group>"; };
+		568B97981F98EAF400EA48F0 /* SeasonDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonDetailController.swift; sourceTree = "<group>"; };
+		569679FA1F87C40A00E0FBB5 /* ShowDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDetailController.swift; sourceTree = "<group>"; };
+		56A223C41F9CD95D000A37CB /* LargeTVShowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeTVShowCell.swift; sourceTree = "<group>"; };
+		56A223C61F9D611F000A37CB /* PersonDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailController.swift; sourceTree = "<group>"; };
 		56ADF6A51F7F1AB700C78855 /* Telly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Telly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56ADF6A81F7F1AB700C78855 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		56ADF6AA1F7F1AB700C78855 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		56ADF6AD1F7F1AB700C78855 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		56ADF6AF1F7F1AB700C78855 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56ADF6B21F7F1AB700C78855 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +90,16 @@
 		56ADF6C41F7F1AB700C78855 /* TellyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TellyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56ADF6C81F7F1AB700C78855 /* TellyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TellyUITests.swift; sourceTree = "<group>"; };
 		56ADF6CA1F7F1AB700C78855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56ADF6D61F7F1C0200C78855 /* Entertainment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entertainment.swift; sourceTree = "<group>"; };
+		56ADF6DA1F7F1F0400C78855 /* GenericTVShowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericTVShowCell.swift; sourceTree = "<group>"; };
+		56ADF6DD1F7F22C800C78855 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		56ADF6DE1F7F22C800C78855 /* CosmosDistrib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CosmosDistrib.swift; sourceTree = "<group>"; };
+		56ADF6DF1F7F22C800C78855 /* UIImageEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageEffects.swift; sourceTree = "<group>"; };
+		56ADF6E01F7F22C800C78855 /* VisualEffectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectView.swift; sourceTree = "<group>"; };
+		56E44CC01F81D6D800E811C4 /* TVEpisodeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVEpisodeCell.swift; sourceTree = "<group>"; };
+		56F434FC1F7FD237002880BD /* HomeCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewController.swift; sourceTree = "<group>"; };
+		B49710D3E0E5B50A13DE346A /* Pods-Telly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Telly.release.xcconfig"; path = "Pods/Target Support Files/Pods-Telly/Pods-Telly.release.xcconfig"; sourceTree = "<group>"; };
+		E314C31A5EFF3AE4DCAF3000 /* Pods_Telly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Telly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEC063E9C639E2130B3A3227 /* Pods_Telly.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +128,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06E19FFB6226C712F856F983 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E314C31A5EFF3AE4DCAF3000 /* Pods_Telly.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4BE77874E9DC6FC8AF6216CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25D892E1BFE5B37CEDD1A631 /* Pods-Telly.debug.xcconfig */,
+				B49710D3E0E5B50A13DE346A /* Pods-Telly.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		56304E202261620D00905025 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				56662ECD226166BF007006D9 /* Telly-Bridging-Header.h.h */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		566D5F2A1F7FDA1B0071DBE7 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				56A223C41F9CD95D000A37CB /* LargeTVShowCell.swift */,
+				56ADF6DA1F7F1F0400C78855 /* GenericTVShowCell.swift */,
+				56E44CC01F81D6D800E811C4 /* TVEpisodeCell.swift */,
+				565A17DE1F82A6C00068EF2A /* TVCastCell.swift */,
+				56250D1E1F9C28B900A64E03 /* GenresCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		56ADF69C1F7F1AB700C78855 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +172,8 @@
 				56ADF6BC1F7F1AB700C78855 /* TellyTests */,
 				56ADF6C71F7F1AB700C78855 /* TellyUITests */,
 				56ADF6A61F7F1AB700C78855 /* Products */,
+				4BE77874E9DC6FC8AF6216CC /* Pods */,
+				06E19FFB6226C712F856F983 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +190,20 @@
 		56ADF6A71F7F1AB700C78855 /* Telly */ = {
 			isa = PBXGroup;
 			children = (
+				56304E202261620D00905025 /* Resources */,
+				566D5F2A1F7FDA1B0071DBE7 /* Cells */,
+				56ADF6DC1F7F22C800C78855 /* Framework Files */,
 				56ADF6A81F7F1AB700C78855 /* AppDelegate.swift */,
-				56ADF6AA1F7F1AB700C78855 /* ViewController.swift */,
+				56ADF6D61F7F1C0200C78855 /* Entertainment.swift */,
 				56ADF6AC1F7F1AB700C78855 /* Main.storyboard */,
+				565A17E01F82B9A00068EF2A /* SearchViewController.swift */,
+				56250D201F9C29B300A64E03 /* DiscoverController.swift */,
+				56250D221F9C360200A64E03 /* GenreDetailController.swift */,
+				56F434FC1F7FD237002880BD /* HomeCollectionViewController.swift */,
+				569679FA1F87C40A00E0FBB5 /* ShowDetailController.swift */,
+				568B97981F98EAF400EA48F0 /* SeasonDetailController.swift */,
+				5625AE5B1F9A61A5001502E0 /* EpisodeDetailController.swift */,
+				56A223C61F9D611F000A37CB /* PersonDetailController.swift */,
 				56ADF6AF1F7F1AB700C78855 /* Assets.xcassets */,
 				56ADF6B11F7F1AB700C78855 /* LaunchScreen.storyboard */,
 				56ADF6B41F7F1AB700C78855 /* Info.plist */,
@@ -125,6 +229,18 @@
 			path = TellyUITests;
 			sourceTree = "<group>";
 		};
+		56ADF6DC1F7F22C800C78855 /* Framework Files */ = {
+			isa = PBXGroup;
+			children = (
+				56304E1F2261617400905025 /* Telly-Bridging-Header.h */,
+				56ADF6DD1F7F22C800C78855 /* SwiftyJSON.swift */,
+				56ADF6DE1F7F22C800C78855 /* CosmosDistrib.swift */,
+				56ADF6DF1F7F22C800C78855 /* UIImageEffects.swift */,
+				56ADF6E01F7F22C800C78855 /* VisualEffectView.swift */,
+			);
+			path = "Framework Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +248,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56ADF6CD1F7F1AB700C78855 /* Build configuration list for PBXNativeTarget "Telly" */;
 			buildPhases = (
+				AC8F9D07FE8FD88E4451E8A4 /* [CP] Check Pods Manifest.lock */,
 				56ADF6A11F7F1AB700C78855 /* Sources */,
 				56ADF6A21F7F1AB700C78855 /* Frameworks */,
 				56ADF6A31F7F1AB700C78855 /* Resources */,
+				56E44CBF1F818E7C00E811C4 /* Embed Frameworks */,
+				BD85FCC2254D8EED769F2B95 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -193,6 +312,7 @@
 				TargetAttributes = {
 					56ADF6A41F7F1AB700C78855 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
 					56ADF6B81F7F1AB700C78855 = {
@@ -254,13 +374,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AC8F9D07FE8FD88E4451E8A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Telly-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD85FCC2254D8EED769F2B95 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Telly/Pods-Telly-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CyaneaOctopus/CyaneaOctopus.framework",
+				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
+				"${BUILT_PRODUCTS_DIR}/PullToDismiss/PullToDismiss.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CyaneaOctopus.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PullToDismiss.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Telly/Pods-Telly-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		56ADF6A11F7F1AB700C78855 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56ADF6AB1F7F1AB700C78855 /* ViewController.swift in Sources */,
+				56F434FD1F7FD237002880BD /* HomeCollectionViewController.swift in Sources */,
+				56ADF6D71F7F1C0200C78855 /* Entertainment.swift in Sources */,
+				56ADF6DB1F7F1F0400C78855 /* GenericTVShowCell.swift in Sources */,
+				56ADF6E11F7F22C800C78855 /* SwiftyJSON.swift in Sources */,
+				5625AE5C1F9A61A5001502E0 /* EpisodeDetailController.swift in Sources */,
+				56A223C71F9D611F000A37CB /* PersonDetailController.swift in Sources */,
+				56250D231F9C360200A64E03 /* GenreDetailController.swift in Sources */,
+				569679FB1F87C40A00E0FBB5 /* ShowDetailController.swift in Sources */,
+				56250D211F9C29B300A64E03 /* DiscoverController.swift in Sources */,
 				56ADF6A91F7F1AB700C78855 /* AppDelegate.swift in Sources */,
+				56E44CC11F81D6D800E811C4 /* TVEpisodeCell.swift in Sources */,
+				56A223C51F9CD95D000A37CB /* LargeTVShowCell.swift in Sources */,
+				56ADF6E41F7F22C800C78855 /* VisualEffectView.swift in Sources */,
+				56ADF6E21F7F22C800C78855 /* CosmosDistrib.swift in Sources */,
+				565A17E11F82B9A00068EF2A /* SearchViewController.swift in Sources */,
+				56250D1F1F9C28B900A64E03 /* GenresCell.swift in Sources */,
+				565A17DF1F82A6C00068EF2A /* TVCastCell.swift in Sources */,
+				568B97991F98EAF400EA48F0 /* SeasonDetailController.swift in Sources */,
+				56ADF6E31F7F22C800C78855 /* UIImageEffects.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,14 +604,24 @@
 		};
 		56ADF6CE1F7F1AB700C78855 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25D892E1BFE5B37CEDD1A631 /* Pods-Telly.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7CSTNGA4CB;
+				DEVELOPMENT_TEAM = AEA87WCYYX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Telly/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.omarabbasi.Telly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -439,14 +629,23 @@
 		};
 		56ADF6CF1F7F1AB700C78855 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B49710D3E0E5B50A13DE346A /* Pods-Telly.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7CSTNGA4CB;
+				DEVELOPMENT_TEAM = AEA87WCYYX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Telly/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.omarabbasi.Telly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
